@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pyFTP
+Version: 0.0.1
+Summary: FTP file transfer and management by Python
+Home-page: https://github.com/AsajuHuishi/FTP_file_transfer_management
+Author: AsajuHuishi
+Author-email: zengxinyang@tju.edu.cn
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
