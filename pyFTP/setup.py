@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     
     
     
-setuptools.setup(name='py-FTP',
+setuptools.setup(name='pythonFTP',
     version='0.0.1',
     description='FTP file transfer and management by Python',
     url='https://github.com/AsajuHuishi/FTP_file_transfer_management',
