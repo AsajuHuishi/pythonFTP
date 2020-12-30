@@ -1,5 +1,6 @@
 
-# FTP_file_transfer_management
+# [pythonFTP](https://pypi.org/manage/project/pythonFTP/release/0.0.6/)
+
 ## 介绍
 `pyFTP` 是一个用来在Linux（Ubuntu）上管理ftp服务器文件的工具。它使用`python`实现，基于经典的`libftp`模块，保留了该模块的所有原有功能。它实现的核心功能包括：**ftp服务器上传/下载文件/文件夹，在ftp服务器上创建文件夹，删除ftp服务器上的文件/文件夹**。我们**对ftp的文件夹实现递归处理**，确保可以**实现便利的传输和管理ftp服务器上的文件和文件夹**。
 
@@ -9,15 +10,16 @@
  - Python3.7
 
 ##  下载
+0.0.6版本
 
 ```bash
-pip install pyFTP
+pip install pythonFTP
 ```
 ## 使用
 
  - **模块导入**
 ```python
-from pyFTP.utils.FTPTools import FTPTools
+from pythonFTP.FTPTools import FTPTools
 ```
  - **对象建立**
  

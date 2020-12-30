@@ -1,7 +1,7 @@
 import time 
 import os
 import re
-from pyFTP.utils.ftplib2 import FTP 
+from pythonFTP.ftplib2 import FTP 
 import traceback
 
 # Copyright AsajuHuishi 20/12/29
