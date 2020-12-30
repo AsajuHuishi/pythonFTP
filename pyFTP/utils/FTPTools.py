@@ -41,6 +41,9 @@ class FTPTools:
         elif status == 'delete file': # 删除文件
             assert ftp != None, 'Delete file: FTP file is not specified'
             self.deleteFile(ftp)
+        elif status == 'create folder': # 新建文件夹
+            assert ftp != None, 'Delete file: FTP file is not specified'
+            self.createFolderFTP(ftp)
         else:
             raise NameError("Status does not have this parameter")
         
@@ -75,6 +78,7 @@ class FTPTools:
                     self.ftp.mkd(splitPath)   # 新建路径
                     self.ftp.cwd(splitPath)   # 转到当前路径        
             assert self.ftp.pwd() == ftpPath, 'Check that the FTP directory has been created correctly!'
+        print('Create folder {} OK.'.format(ftpPath))
             
     def uploadFolder(self, localPath, ftpPath): # 上传文件夹
         self.createFolderFTP(ftpPath)
