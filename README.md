@@ -75,13 +75,13 @@ localPath = '/media/lwt/qysdcj/01trainset/'
 obj.run(ftpPath, localPath, 'download folder')    
 
 # 创建文件夹
-ftpPath = '/private/zengxinyang/qysdcj/'
+ftpPath = '/private/lwt/qysdcj/'
 obj.run(ftpPath, '', 'create folder') 
 ```
 
 ## 相关项目
 
- - [libftp](https://pypi.org/search/?q=libftp) 本项目在此项目的基础上进行了修改，并保留了原有的所有方法。您可以在`pyFTP`中使用以下命令，它包括原来模块中的所有功能。
+ - [libftp](https://pypi.org/search/?q=libftp) 本项目在此项目的基础上进行了修改，并保留了原有的所有方法。您可以在`pythonFTP`中使用以下命令，它包括原来模块中的所有功能。
 
 ```python
 from pythonFTP.ftplib2 import FTP 
