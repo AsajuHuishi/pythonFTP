@@ -2,8 +2,8 @@
 # pythonFTP
 ## 地址
 
- - [github](https://github.com/AsajuHuishi/FTP_file_transfer_management/tree/main/pyFTP)
- - [pythonFTP 0.0.6](https://pypi.org/manage/project/pythonFTP/release/0.0.6/)
+ - Code [github](https://github.com/AsajuHuishi/FTP_file_transfer_management/tree/main/pyFTP)
+ - [Pypi: pythonFTP](https://pypi.org/project/pythonFTP/)
 
 ## 介绍
 `pythonFTP` 是一个用来在Linux（Ubuntu）上管理ftp服务器文件的工具。它使用`python`实现，基于经典的`libftp`模块，保留了该模块的所有原有功能。它实现的核心功能包括：**ftp服务器上传/下载文件/文件夹，在ftp服务器上创建文件夹，删除ftp服务器上的文件/文件夹**。我们**对ftp的文件夹实现递归处理**，确保可以**实现便利的传输和管理ftp服务器上的文件和文件夹**。
@@ -12,9 +12,9 @@
 
  - Ubuntu16.04
  - Python3.7
+ - [Serv-U](http://www.serv-u.com.cn/)
 
 ##  下载
-0.0.6版本
 
 ```bash
 pip install pythonFTP
